@@ -1,0 +1,157 @@
+#navbar , #contactme-container , .foot{
+    background-color: rgb(39, 20, 47);
+    width: 70%;
+    color: beige;
+    border-radius: 30px;
+    padding: 20px 30px;
+    margin: 50px auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+.link{
+    margin-top: 40px;
+}
+
+.link a ,#aboutmebio a{
+    background-color: rgb(60, 24, 75);
+    color: bisque;
+    border: solid rgb(66, 2, 66) 1px;
+    border-radius: 30px;
+    padding: 10px;
+    margin-right: 20px;
+    
+
+}
+
+
+h2 , h4 {
+    color: darkviolet;
+}
+
+h2 {
+    border-bottom: 1px solid rgb(66, 2, 66) ;
+}
+
+    /* about me */
+
+    #aboutmecontainer img{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        
+    }
+
+    #aboutmecontainer ,
+    #Myskills-container ,
+    #Experience-container{
+    background-color:rgb(245, 245, 238);
+    width: 70%;
+    border-radius: 30px;
+    padding: 20px 30px;
+    margin: 50px auto;
+    
+    }
+
+    #aboutmecontainer img ,
+    #aboutmebio {
+    float: left;
+    
+    }
+    .clear{
+        clear: both;
+    }
+
+    #aboutmebio {
+    width: 70%;
+    margin-left: 20px;
+    
+}
+
+#aboutmebio p{
+    margin-bottom: 50px;
+}
+
+/* Skills */
+
+.card{
+    float: left;
+    width: 25%;
+    height: 20%;
+    padding: 5px;
+    box-sizing: border-box;
+    
+}
+
+.inner{
+    background-color: azure;
+    border: solid 1px rgb(223, 177, 220);
+    border-radius: 10px;
+    /* margin-right: 20px; */
+    padding: 10px;
+    box-sizing: border-box;
+    
+    
+}
+.card-container{
+    margin: auto;
+}
+
+h3 {
+    color: rgb(70, 51, 78);
+}
+
+
+/* Experience */
+
+.Experience-card1 img , .Experience-card2 img{
+    width: 80px;
+
+
+}
+
+.Experience-card1 , .Experience-card2{
+    background-color:rgb(233, 233, 222);
+    width: 90%;
+    border-radius: 30px;
+    border-left: solid 5px rgb(60, 24, 75) ;
+    padding: 20px 30px;
+    margin: 30px auto;
+}
+
+.Experience-img ,
+.Experience-des{
+    float: left;
+    margin: 20px;
+    
+    }
+
+    .clear{
+        clear: both;
+    }
+
+
+    /* contact me */
+
+    #contactme-container a {
+        background-color: rgb(63, 33, 76);
+        border: solid rgb(105, 75, 118) 1px;
+        border-radius: 5px;
+        margin-right: 20px;
+        padding: 4px;
+        color: white;
+    }
+
+    /* footer */
+
+    .foot{
+        background-color: rgb(39, 20, 47);
+    }
+
+    .foot span{
+        color: blueviolet;
+
+    }
